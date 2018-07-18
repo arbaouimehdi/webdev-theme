@@ -1,5 +1,8 @@
 @import "common/variables";
 
+// Plugins
+@import "~prismjs/themes/prism-okaidia";
+
 /** Import everything from autoload */
 @import "./autoload/**/*";
 
@@ -18,8 +21,6 @@
 @import "components/forms";
 @import "components/wp-classes";
 @import "layouts/header";
-@import "layouts/sidebar";
 @import "layouts/footer";
 @import "layouts/pages";
 @import "layouts/posts";
-@import "layouts/tinymce";
