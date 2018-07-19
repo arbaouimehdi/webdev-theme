@@ -1,0 +1,43 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Prata", serif;
+  color: #444;
+  background: #fff;
+  line-height: 1.6;
+}
+
+code.short {
+  display: inline-block;
+  margin: 0 0.4em;
+  padding: 1px 6px;
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px 0 #fff, 2px 2px 0 #ddd;
+}
+
+a {
+  color: #444;
+  text-decoration: none;
+
+  &:hover {
+    color: #000;
+    text-decoration: underline;
+  }
+}
+
+h2 {
+  margin: 20px 0;
+}
+
+p {
+  line-height: 2em;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 780px;
+  }
+}

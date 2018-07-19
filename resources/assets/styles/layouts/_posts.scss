@@ -1,0 +1,13 @@
+.entry-content {
+  a {
+    background: #fff1c0;
+    text-decoration: none;
+    border-bottom: 2px solid #e8dba9;
+    font-size: 14px;
+    &:hover {
+      color: #000;
+      background: #f0dfa2;
+      border-color: #b5a774;
+    }
+  }
+}
