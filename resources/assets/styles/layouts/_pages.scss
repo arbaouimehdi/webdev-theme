@@ -17,12 +17,68 @@
 .page-header {
   h1 {
     text-align: center;
-    margin-bottom: 20px;
+    margin: 30px 0;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline-block;
+      list-style: none;
+      a {
+        margin: 0 0.4em;
+        padding: 1px 6px;
+        background: #fff;
+        border: 1px solid #ddd;
+        box-shadow: 1px 1px 0 #fff, 2px 2px 0 #ddd;
+        font-size: 12px;
+        &:hover {
+          text-decoration: none;
+          background: rgba(240, 223, 162, 0.2);
+        }
+      }
+    }
   }
 }
 
-.page-about-data {
-  img {
-    width: 100%;
+/**
+*
+* Work
+*
+*/
+.work {
+  ul {
+    padding: 0;
+    li {
+      list-style: none;
+      p {
+        line-height: 1em;
+        margin: 20px 0;
+      }
+    }
+  }
+
+  .main {
+    > ul {
+      li {
+        margin-bottom: 10px;
+        border-bottom: 1px dotted #ccc;
+        padding: 10px 0;
+      }
+    }
+  }
+}
+
+/**
+*
+* Blog
+*
+*/
+.blog {
+  .post {
+    margin: 35px 0;
+    h2 {
+      margin: 30px 0;
+    }
   }
 }
